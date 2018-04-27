@@ -217,8 +217,8 @@ app.layout = html.Div(style={'backgroundImage':'url("http://www.designbolts.com/
 	
 	html.Div(style={'margin':'0% 0% 0% 2.5%'},children=dcc.DatePickerRange(
 		id='range',
-		start_date=dt(2018,3,24),
-		end_date=dt(2018,3,30)
+		start_date=dt(2018,3,18),
+		end_date=dt(2018,3,24)
 		#number_of_months_shown = 1,
 		
 	
