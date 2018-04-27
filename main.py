@@ -206,6 +206,7 @@ def generate_pie(crypto):
 		
 #initialize application
 app = dash.Dash()
+server = app.server
 app.config['suppress_callback_exceptions']=True
 
 #application layout
